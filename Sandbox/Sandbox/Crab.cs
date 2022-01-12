@@ -2,6 +2,6 @@
 {
     class Crab
     {
-
+        Seahorse seahorse = new Seahorse();
     }
 }

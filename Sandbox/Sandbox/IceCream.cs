@@ -2,6 +2,6 @@
 {
     class IceCream
     {
-
+        IceCream iceCream = new IceCream();
     }
 }

@@ -2,6 +2,6 @@
 {
     class Shell
     {
-        
+        Shell shell = new Shell();
     }
 }
