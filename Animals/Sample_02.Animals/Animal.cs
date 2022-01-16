@@ -6,13 +6,13 @@ namespace Sample_02.Animals
     {
         public Animal(string name, string type, int healthPoints, int food)
         {
-            Name = name;
+            Lion = name;
             Type = type;
             HealthPoints = healthPoints;
             Food = food;
         }
 
-        public string Name { get; }
+        public string Lion { get; }
         public string Type { get; }
         public int HealthPoints { get; set; }
         public int Food { get; set; }
@@ -26,11 +26,11 @@ namespace Sample_02.Animals
                 HealthPoints--;
                 if (HealthPoints > 0)
                 {
-                    Console.WriteLine($"{Name} is starving.");
+                    Console.WriteLine($"{Lion} is starving.");
                 }
                 else
                 {
-                    Console.WriteLine($"{Name} starved to death.");
+                    Console.WriteLine($"{Lion} starved to death.");
                     HealthPoints = 0;
                 }
 
